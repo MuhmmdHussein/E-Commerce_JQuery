@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <script src="./js/bootstrap.js"></script>
+    <script src="./jquery.js"></script>
+
+    <title>Violeta</title>
+</head>
+
+<body>
+
+    <!-- =============================== Nav ======================================== -->
+
+
+
+    <nav class="navbar navbar-expand-md bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./home.html">Violeta</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+            <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item  ">
+                        <a class="nav-link" href="./Home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./login.html">Log in</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="./signup.html">Sign Up</a>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- ==================================== Slides =============================== -->
+
+
+    <div class="container-fluid">
+
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://www.mrporter.com/cms/ycm/resource/blob/23926404/f8212f89ebc398782e99dbf9fc6fb56d/hp-jpg-data.jpg"
+                        class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://sneakerscheaper.com/wp-content/uploads/2023/07/cc01baa8-ad0e-422d-a42e-a936049f1726-data.png"
+                        class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://hips.hearstapps.com/hmg-prod/images/index-mr-porter-1672251882.jpg?crop=1.00xw:1.00xh;0,0&resize=1200:*"
+                        class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <br>
+        <br>
+
+        <!-- =================================== Cards ================================= -->
+
+        <br>
+        <br>
+
+
+
+        <p class="fs-1 text-center">Discover Our Products</p>
+
+        <br>
+        <br>
+
+
+        <div class="container-fluid">
+
+            <div class="card-group">
+                <div class="card">
+                    <img src="https://i.ebayimg.com/images/g/B-EAAOSw2bVmYlAZ/s-l960.webp" class="card-img-top"
+                        alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Men's Short Sleeve Polo Shirts Knitted Shirts Casual Golf Shirt</h5>
+                        <p class="card-text">US $16.98
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <button onclick="add()" id="addBtn" type="button" class="btn btn-dark">Add To Cart</button>
+                        <button type="button" class="btn btn-dark">More Details</button>
+
+
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://i.ebayimg.com/images/g/IL0AAOSwmXdmYlAM/s-l1600.webp" class="card-img-top"
+                        alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Men's Short Sleeve Polo Shirts</h5>
+                        <p class="card-text"> US $26.63</p>
+                    </div>
+                    <div class="card-footer">
+                        <button onclick="add()" id="addBtn" type="button" class="btn btn-dark">Add To Cart</button>
+                        <button type="button" class="btn btn-dark">More Details</button>
+
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://i.ebayimg.com/images/g/uE4AAOSwLsJmTFhV/s-l960.webp" class="card-img-top"
+                        alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Men's Short Sleeve Polo Shirts</h5>
+                        <p class="card-text">US $26.63
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <button onclick="add()" id="addBtn" type="button" class="btn btn-dark">Add To Cart</button>
+                        <button type="button" class="btn btn-dark">More Details</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <!-- ========================================= -->
+
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <div class="container-fluid">
+            <div class="card-group">
+                <div class="card">
+                    <img src="https://i.ebayimg.com/images/g/WA0AAOSwq-Nls1Fs/s-l960.webp" class="card-img-top"
+                        alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Men's Woolen Coat French</h5>
+                        <p class="card-text">US $59.76
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <button onclick="add()" id="addBtn" type="button" class="btn btn-dark">Add To Cart</button>
+
+                        <button type="button" class="btn btn-dark">More Details</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://i.ebayimg.com/images/g/Hg8AAOSw-J5ls1Fk/s-l1600.webp" class="card-img-top"
+                        alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Business Men Suits Houndstooth Regular</h5>
+                        <p class="card-text">US $59.76</p>"
+                    </div>
+                    <div class="card-footer">
+                        <button onclick="add()" id="addBtn" type="button" class="btn btn-dark">Add To Cart</button>
+
+                        <button type="button" class="btn btn-dark">More Details</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://i.ebayimg.com/images/g/IDEAAOSwsy1jeEOl/s-l960.webp" class="card-img-top"
+                        alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Men's Woolen Coat French</h5>
+                        <p class="card-text">US $59.76</p>
+                    </div>
+                    <div class="card-footer">
+                        <button onclick="add()" id="addBtn" type="button" class="btn btn-dark">Add To Cart</button>
+                        <button type="button" class="btn btn-dark">More Details</button>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- ===================================== Footer =========================================== -->
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+
+
+        <div class="container-fluid">
+
+            <footer class="bg-secondary
+">
+
+
+                <br>
+                <br>
+
+                <p class="text-center" style="color: white"> Our Story </p>
+                <p class="text-center" style="color: white">Welcome to Violeta, where fashion meets passion. Founded in
+                    1999, our journey began with a simple idea:
+                    to create clothing that combines quality, style, and affordability. What started as a small boutique
+                    has
+                    grown into a beloved brand, cherished by fashion enthusiasts worldwide.</p>
+                <br>
+
+                <p class="text-center" style="color: white"> Our Mission </p>
+
+                <p class="text-center" style="color: white"> Violeta, our mission is to empower individuals to express
+                    themselves through fashion. We believe that
+                    clothing is more than just fabric; it’s a form of art that tells your unique story. We are committed
+                    to
+                    offering versatile, trendy, and high-quality pieces that cater to every style and occasion..</p>
+
+                <br>
+                <br>
+                <p>
+                <ul>
+                    <li style="color: white">
+                        <strong>Address:</strong><br>
+                        LearnHub Headquarters<br>
+                        123 Main Street<br>
+                        ,USA<br>
+                        Postal Code: 12345
+                    </li>
+                    <br>
+                    <li style="color: white">
+                        <strong>Phone:</strong><br>
+                        +1 (555) 123-4567
+                    </li>
+                </ul>
+                </p>
+                <br>
+
+
+
+
+
+            </footer>
+        </div>
+        <script src="./Home.js"></script>
+</body>
+
+
+
+
+</html>

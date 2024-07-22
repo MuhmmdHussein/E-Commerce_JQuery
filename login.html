@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <script src="./js/bootstrap.js"></script>
+    <script src="./jquery.js"></script>
+
+    <title>User Log In</title>
+</head>
+
+<body>
+
+
+
+  <!-- ==============================  nav  ============================= -->
+
+    <nav class="navbar navbar-expand-md bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./home.html">Violeta</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          
+          <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item  ">
+                <a class="nav-link" href="./Home.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./login.html">Log in</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link " href="./signup.html">Sign Up</a>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+<!-- =======================  from ================================== -->
+
+       
+<div class="container mt-5">
+  <form id="loginForm" class="row justify-content-center">
+      <h2>User Log In</h2>
+      <div class="mb-3">
+          <label for="inputUsername" class="form-label">Username:</label>
+          <input class="form-control" type="text" name="username" id="inputUsername" placeholder="Enter your username" required>
+          <span id="valid1" class="text-danger"></span>
+      </div>
+      <div class="mb-3">
+          <label for="firstPassword" class="form-label">Password:</label>
+          <input class="form-control" type="password" name="password" id="firstPassword" placeholder="Enter your password" required>
+          <span id="valid2" class="text-danger"></span>
+      </div>
+      <div class="col-12">
+          <button id="logBtn" class="btn btn-primary" type="submit">Log in</button>
+      </div>
+  </form>
+</div>
+
+    <script src="./login.js"></script>
+</body>
+
+</html>

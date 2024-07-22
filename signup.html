@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <script src="./js/bootstrap.js"></script>
+    <script src="./jquery.js"></script>
+    <title>User Registration</title>
+</head>
+<body>
+
+
+<!-- ==================================== Nav Bar ========================================== -->
+
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <div class="container">
+        <a class="navbar-brand" href="./home.html">Violeta</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="./Home.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./login.html">Log in</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./signup.html">Sign Up</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- ============================== Registration Form ===================== -->
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <form id="registrationForm" class="needs-validation" novalidate>
+                <h2 class="mb-4">User Registration</h2>
+
+                <!--====== Username ==== -->
+                
+                <div class="form-group">
+                    <label for="inputUsername">Username:</label>
+                    <input type="text" class="form-control" id="inputUsername" name="username" placeholder="Enter your name" required>
+                    <div class="invalid-feedback" id="valid1"></div>
+                </div>
+
+                <!--========= Email ============-->
+                
+                <div class="form-group">
+                    <label for="inputEmail">Email:</label>
+                    <input type="email" class="form-control" id="inputEmail" name="email" placeholder="Enter your email" required>
+                    <div class="invalid-feedback" id="valid2"></div>
+                </div>
+
+                <!--==== Password =====-->
+
+                <div class="form-group">
+                    <label for="firstPassword">Password:</label>
+                    <input type="password" class="form-control" id="firstPassword" name="password" placeholder="Enter your password" required>
+                </div>
+
+                <!--==== Confirm Password =====-->
+
+                <div class="form-group">
+                    <label for="secondPassword">Confirm Password:</label>
+                    <input type="password" class="form-control" id="secondPassword" name="confirmPassword" placeholder="Confirm your password" required>
+                    <div class="invalid-feedback" id="valid3"></div>
+                </div>
+<br>
+                <!--====== Submit Button ======-->
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary">Submit form</button>
+                </div>
+
+                <!--=====  Alert ======-->
+                <br>
+                <div class="alert alert-danger d-none" id="alertMessage" role="alert">
+                    Please fill in all fields!
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script src="./signup.js"></script>
+
+</body>
+</html>
